@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars */
+    background-color: #000; /* Optional: background color if image doesn't cover */
+}
+
+#imageUpload {
+    display: none; /* Hide the file input visually */
+}
+
+canvas {
+    display: block; /* Remove extra space below canvas */
+    position: fixed; /* Position relative to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Cover the full width */
+    height: 100%; /* Cover the full height */
+    cursor: crosshair; /* Change cursor to indicate interaction */
+}
